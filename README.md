@@ -1,4 +1,6 @@
-# Cats vs. Dogs
+# Cats vs. Dogs 
+
+![Image](https://github.com/darshanbagul/Cats-vs-Dogs/blob/master/images/woof_meow.jpg)
 
 This repository comprises of my experiments on the Asirra (Animal Species Image Recognition for Restricting Access) data set containing images of Cats and Dogs. This project is my solution to the Kaggle competition [Dogs vs. Cats](https://www.kaggle.com/c/dogs-vs-cats) hosted in 2013. This dataset has become a main stream dataset to experiment with image classification techniques, where people used basic computer vision techniques combined with Deep Learning algorithms for achieving state of the art results. 
 
