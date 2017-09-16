@@ -63,3 +63,33 @@ Folder structure
             cat001.jpg
             cat002.jpg
             ...
+
+## Results
+Below the model experiment and achieved accuracy are stated.
+
+1. CNN model from scratch - 82 %
+
+2. CNN model + Data augmentation - 78 %
+
+3. Transfer Learning using pre-trained VGG 16 - 87.64 %
+
+**4. Fine-tuning top layers of a pre-trained VGG 16 model - 93.8 %**
+
+As we can see, just a little fine-tuning yields an accuracy that of 94%! This is well over the baseline accuracy of ~ 80%, which is also stated in this [paper](http://xenon.stanford.edu/~pgolle/papers/dogcat.pdf).
+
+## Conclusion
+
+1. Transfer learning followed by a fine-tuning of top layers lead to a very accurate model
+    
+2. If an algorithm is able to classify the images in the ASIRRA dataset with over 94% accuracy, the dataset being used for CAPTCHA is no longer robust against security attacks.
+    
+3. In this project we explored a number of techniques for solving image classification challenges, and also laid down the strategies that can be followed for any image classification problem.
+    
+4. Summary of our experiments:
+      a. Training a small network from scratch (as a baseline)  
+
+      b. Using data augmentation techniques for improving model robustness when working with less data and exploring Keras' ImageDataGenerator class for real-time data augmentation
+
+      c. Using the bottleneck features of a pre-trained network  
+
+      d. Fine-tuning the top layers of a pre-trained network along with layer freezing and model fine-tuning.
